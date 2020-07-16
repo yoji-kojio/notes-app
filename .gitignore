@@ -2,6 +2,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/node
 # Edit at https://www.toptal.com/developers/gitignore?templates=node
 
+### notes-app ###
+notes.json
+
 ### Node ###
 # Logs
 logs
