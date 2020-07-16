@@ -16,8 +16,7 @@ const addNote = (title, body) => {
     log(chalk.green('Nota adicionada com sucesso!'))
   } else {
     log(chalk.yellow('Já existe uma nota com esse título:'))
-
-    duplicatedNotes.forEach((note) => log(note.body))
+    log(duplicatedNote.body)
   }
 }
 
